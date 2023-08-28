@@ -1,0 +1,214 @@
+body,
+html {
+    height: 100%;
+    margin: 1rem;
+    padding: 0;
+}
+
+.main-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+    border: 0.5rem solid black;
+}
+
+.gray-box-one {
+    background-color: #ccc;
+    flex: 2;
+    border-left: none;
+    border-top: none;
+}
+
+.red-box-one {
+    background-color: red;
+    flex: 3.5;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.red-box-two {
+    background-color: red;
+    flex: 3.5;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.yellow-box-one {
+    background-color: yellow;
+    flex: 3;
+    border-top: none;
+    border-right: none;
+}
+
+.yellow-box-two {
+    background-color: yellow;
+    flex: 3;
+    border-top: none;
+    border-left: none;
+}
+
+.gray-box-two {
+    background-color: #ccc;
+    flex: 1;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.gray-box-three {
+    background-color: #ccc;
+    flex: 2;
+    border-left: none;
+    border-bottom: none;
+}
+
+.red-box-three {
+    background-color: red;
+    flex: 3.4;
+    border-top: none;
+    border-right: none;
+}
+
+.red-box-four {
+    background-color: red;
+    flex: 3.64;
+    border-top: none;
+    border-left: none;
+}
+
+.gray-box-four {
+    background-color: #ccc;
+    flex: 2.98;
+}
+
+.gray-box-five {
+    background-color: #ccc;
+    flex: 2.9;
+}
+
+.gray-box-six {
+    background-color: #ccc;
+    flex: 1;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.gray-box-seven {
+    background-color: #ccc;
+    flex: 2;
+    border-left: none;
+    border-top: none;
+}
+
+.black-box-one {
+    background-color: #000;
+    flex: 3.55;
+}
+
+.gray-box-eight {
+    background-color: #ccc;
+    flex: 3.3;
+}
+
+.gray-box-nine {
+    background-color: #ccc;
+    flex: 3;
+    border-right: none;
+}
+
+.gray-box-ten {
+    background-color: #ccc;
+    flex: 3;
+    border-left: none;
+}
+
+.gray-box-eleven {
+    background-color: #ccc;
+    flex: 1;
+    border-top: none;
+    border-right: none;
+}
+
+.yellow-box-three {
+    background-color: yellow;
+    flex: 2;
+    border-left: none;
+    border-bottom: none;
+}
+
+.black-box-two {
+    background-color: #000;
+    flex: 3.55;
+}
+
+.gray-box-twelve {
+    background-color: #ccc;
+    flex: 3.3;
+    border-bottom: none;
+}
+
+.blue-box-one {
+    background-color: darkblue;
+    flex: 3;
+    border-bottom: none;
+    border-right: none;
+}
+
+.blue-box-two {
+    background-color: darkblue;
+    flex: 3;
+    border-bottom: none;
+    border-left: none;
+}
+
+.red-box-five {
+    background-color: red;
+    flex: 1;
+    border-right: none;
+    border-bottom: none;
+}
+
+.row-first {
+    flex: 2;
+}
+
+.row-second {
+    flex: 3;
+}
+
+.row-third {
+    flex: 1.3;
+}
+
+.row-last {
+    flex: 0.8;
+}
+
+.hover-color-change {
+    cursor: pointer;
+}
+
+.hovered {
+    background-color: white;
+}
+
+.resizable {
+    transition: width 0.3s, height 0.3s;
+}
